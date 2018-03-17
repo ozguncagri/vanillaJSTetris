@@ -1,0 +1,37 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #444444;
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #444444 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #444444 100%);
+	background: radial-gradient(ellipse at center, #ffffff 0%, #444444 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#444444', GradientType=1);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	min-height: 100vh;
+}
+
+.wrapper {
+	width: 400px;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+	border: 20px solid gray;
+	box-shadow: rgb(50, 50, 50) 0 0 20px 5px;
+}
+
+#game {
+	padding: 0;
+	margin: 0;
+	image-rendering: pixelated;
+}
+
+* {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
