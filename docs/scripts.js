@@ -128,7 +128,7 @@ class TetrisGame {
 		this.dropTimeInterval = 1000;
 		this.gameGridWidth = 10;
 		this.gameGridHeigth = 20;
-		this.gameHighScore = parseInt(window.localStorage.getItem("highScore"));
+		this.gameHighScore = parseInt(window.localStorage.getItem("highScore") || 0);
 
 		this.lastTime = 0;
 
