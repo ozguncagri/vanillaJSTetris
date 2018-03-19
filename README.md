@@ -17,3 +17,7 @@ It started as a challenge for me to develop games and it was really fun to devel
 # Demo
 
 You can play it from [https://ozguncagri.com/vanillaJSTetris/](https://ozguncagri.com/vanillaJSTetris/)
+
+# Screenshot
+
+![Vanilla JS Tetris](https://ozguncagri.com/vanillaJSTetris/screenshot.png)
